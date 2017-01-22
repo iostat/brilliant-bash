@@ -11,24 +11,20 @@
 #
 # A handful of bash aliases to strengthen the bond between you and your machine.
 #
-# All you can eat. Pick whatever you want/need.
+# All you can eat. Uncomment whatever you want/need.
 ###############################################################################
 
-# weather: pass your city or zip code, and it returns the weather!
-# Usage: weather cleveland
-#              OR
-#         weather 44106
+### weather: pass your city or zip code, and it returns the weather!
+### Usage: weather cleveland
+###              OR
+###         weather 44106
+# weather() { curl wttr.in/"$1"; }
 
-weather() { curl wttr.in/"$1"; }
+### myip: prints out your IP address. Handy to check if your VPN is on!
+# alias myip = "curl http://ipecho.net/plain; echo"
 
-# myip: prints out your IP address. Handy to check if your VPN is on!
+### update (using pacman): update all of your packages!
+# alias update = "sudo pacman -Syyu"
 
-alias myip = "curl http://ipecho.net/plain; echo"
-
-# update (using pacman): update all of your packages!
-
-alias update = "sudo pacman -Syyu"
-
-# update (using homebrew): update homebrew, and then all of your packages!
-
-alias update = "homebrew update; homebrew upgrade --all; brew cleanup -s"
+### update (using homebrew): update homebrew, and then all of your packages!
+# alias update = "homebrew update; homebrew upgrade --all; brew cleanup -s"
