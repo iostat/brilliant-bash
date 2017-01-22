@@ -1,6 +1,6 @@
 # Brilliant Bash
 
-## A handful of bash aliases to strengthen the bond between you and your machine.
+A handful of bash aliases to strengthen the bond between you and your machine.
 
 ### Contact
 
