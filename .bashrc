@@ -19,7 +19,7 @@
 #              OR
 #         weather 44106
 
-weather() {curl wttr.in/"$1";}
+weather() { curl wttr.in/"$1"; }
 
 # myip: prints out your IP address. Handy to check if your VPN is on!
 
