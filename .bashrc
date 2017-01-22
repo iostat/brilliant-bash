@@ -15,6 +15,9 @@
 ###############################################################################
 
 # weather: pass your city or zip code, and it returns the weather!
+# Usage: weather cleveland
+#              OR
+#         weather 44106
 
 weather() {curl wttr.in/"$1";}
 
