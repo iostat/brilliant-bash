@@ -28,3 +28,6 @@
 
 ### update (using homebrew): update homebrew, and then all of your packages!
 # alias update = "homebrew update; homebrew upgrade --all; brew cleanup -s"
+
+### plz: re-run the last command as root
+# alias plz = "fc -l -1 | cut -d' ' -f2- | xargs sudo"
